@@ -61,10 +61,12 @@ class Game{
                        fill(0);
                        textSize(30);
                        text(allPlayers[plr].name, x-35,y+25); 
+
+                       fill(255);
+                       text("Player1: "+allPlayers.player1.score,50,50);
+                       text("Player2: "+allPlayers.player2.score,50,90);
                          
                      }
-                     
-                    // text(allPlayers[plr].name+': '+allPlayers[plr].score,30,140);
                      
                  
                  }
